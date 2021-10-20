@@ -1,8 +1,10 @@
 {
   "development": {
-    "url": "postgres://hmvacymt:b8AtE-PQ1OVuarpxnJDvPVnoBYhXQO0W@hattie.db.elephantsql.com/hmvacymt",
-    "dialect": "postgres",
-    "operatorsAliases": "0"
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",

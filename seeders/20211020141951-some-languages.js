@@ -33,6 +33,21 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        language: "Italian",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        language: "Russian",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        language: "Danish",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
     /**
      * Add seed commands here.

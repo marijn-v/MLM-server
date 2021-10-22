@@ -3,21 +3,15 @@ const router = new Router();
 
 const Catcall = require("../models").catcall;
 
-// get random response
+// get catcall
 router.get("/", async (req, res, next) => {
-  // http://localhost:4000/catcalls
   try {
     const allCatcalls = await Catcall.findAll();
-
-    const randomCatcalls =
-      allCatcalls[Math.floor(Math.random() * allCatcalls.length)];
-    gs;
-    res.send(randomCatcalls);
+    res.send(allCatcalls);
   } catch (e) {
     next(e);
   }
 });
-//www.thundercl>>ient.io/welcome>
 
 router.post("/", async (req, res, next) => {
   try {

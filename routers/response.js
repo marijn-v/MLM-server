@@ -8,7 +8,9 @@ const Languages = require("../models").language;
 router.get("/", async (req, res, next) => {
   // http://localhost:4000/responses
   try {
-    const allResponses = await Response.findAll({ include: [Languages] });
+    const allResponses = await Response.findAll({
+      include: [Languages],
+    });
     res.send(allResponses);
   } catch (e) {
     next(e);

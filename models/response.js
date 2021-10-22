@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
       expression: DataTypes.STRING,
       translation: DataTypes.STRING,
       languageId: DataTypes.INTEGER,
+      audio: DataTypes.STRING,
     },
     {
       sequelize,

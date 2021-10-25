@@ -43,4 +43,19 @@ router.patch("/:id", async (req, res, next) => {
     next(e.message);
   }
 });
+
+router.delete("/:id", async (req, res, next) => {
+  try {
+    const id = parseInt(req.params.id);
+    const catcallToDelete = await Catcall.findByPk(id);
+    if (!catcallToDelete) {
+      res.status(404).send("Catcall not found");
+    }
+    await catcallToDelete.destroy();
+    res.status(204).send("Catcall removed");
+  } catch (e) {
+    next(e.message);
+  }
+});
+
 module.exports = router;

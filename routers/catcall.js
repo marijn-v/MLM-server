@@ -35,7 +35,9 @@ router.patch("/:id", async (req, res, next) => {
     if (!catcallToUpdate) {
       return res.status(400).send("Sorry can't find catcall");
     }
-    const updatedCatcall = catcallToUpdate.update({ ...req.body.data });
+    console.log("req.body", req.body);
+    const updatedCatcall = await catcallToUpdate.update({ ...req.body.data });
+    // console.log("updated catcall", updatedCatcall);
     res.status(201).send(updatedCatcall);
   } catch (e) {
     next(e.message);

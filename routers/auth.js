@@ -1,8 +1,8 @@
 const bcrypt = require("bcrypt");
 const { Router } = require("express");
 const { toJWT } = require("../auth/jwt");
-const authMiddleware = require("../auth/middleware");
-const User = require("../models/").user;
+const authMiddleware = require("../auth/middelware");
+const Admin = require("../models/").admin;
 const router = new Router();
 
 router.post("/login", async (req, res, next) => {
@@ -14,14 +14,14 @@ router.post("/login", async (req, res, next) => {
         .status(400)
         .send({ message: "Please provide both email and password" });
     }
-
-    const user = await User.findOne({
+    console.log("user", Admin);
+    const user = await Admin.findOne({
       where: { email },
     });
 
     if (!user || !bcrypt.compareSync(password, user.password)) {
       return res.status(400).send({
-        message: "User with that email not found or password incorrect",
+        message: "Admin with that email not found or password incorrect",
       });
     }
 

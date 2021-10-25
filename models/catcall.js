@@ -14,6 +14,10 @@ module.exports = (sequelize, DataTypes) => {
   catcall.init(
     {
       expression: { type: DataTypes.STRING, allowNull: false },
+      status: {
+        type: DataTypes.ENUM("pending", "approved"),
+        defaultValue: "pending",
+      },
     },
     {
       sequelize,

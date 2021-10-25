@@ -2,6 +2,7 @@ const express = require("express");
 const corsMiddleWare = require("cors");
 const { PORT } = require("./config/constants");
 
+const authRouter = require("./routers/auth");
 const catcallRouter = require("./routers/catcall");
 const responseRouter = require("./routers/response");
 
@@ -25,6 +26,7 @@ const bodyParserMiddleWare = express.json();
 app.use(bodyParserMiddleWare);
 
 // routers
+app.use("/", authRouter);
 app.use("/catcalls", catcallRouter);
 app.use("/responses", responseRouter);
 

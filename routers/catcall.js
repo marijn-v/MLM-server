@@ -28,4 +28,17 @@ router.post("/", async (req, res, next) => {
   }
 });
 
+router.patch("/:id", async (req, res, next) => {
+  try {
+    const id = parseInt(req.params.id);
+    const catcallToUpdate = await Catcall.findByPk(id);
+    if (!catcallToUpdate) {
+      return res.status(400).send("Sorry can't find catcall");
+    }
+    const updatedCatcall = catcallToUpdate.update({ ...req.body.data });
+    res.status(201).send(updatedCatcall);
+  } catch (e) {
+    next(e.message);
+  }
+});
 module.exports = router;

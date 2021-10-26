@@ -43,8 +43,13 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      // {
+      //   language: "Danish",
+      //   createdAt: new Date(),
+      //   updatedAt: new Date(),
+      // },
       {
-        language: "Danish",
+        language: "English",
         createdAt: new Date(),
         updatedAt: new Date(),
       },

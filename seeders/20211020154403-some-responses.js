@@ -260,37 +260,40 @@ module.exports = {
       {
         expression:
           "Oh my god, a man has deemed me attractive! I AM TRULY BLESSED. WILL YOU MARRY ME SIR? I WAS NOTHING BEFORE YOU VALIDATED MY EXISTENCE TODAY!",
-        translation:
-          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/oh_my_god_a_man_has_deemed_me_attractive_rer2ld.mp3",
+        translation: "",
         languageId: 9,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/oh_my_god_a_man_has_deemed_me_attractive_rer2ld.mp3",
+
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         expression: "Damn, I love that tiny dick of yours!",
-        translation:
-          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/love_your_tiny_dick_wyvujq.mp3",
+        translation: "",
         languageId: 9,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/love_your_tiny_dick_wyvujq.mp3",
+
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         expression: "Sir, I do not know you, please do not talk to me.",
-        translation:
-          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/i_do_not_know_you_hmcb9i.mp3",
+        translation: "",
         languageId: 9,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/i_do_not_know_you_hmcb9i.mp3",
+
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         expression: "Sir, your MALE GAZE is unwanted here.",
-        translation:
-          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/male_gaze_iqkg1s.mp3",
+        translation: "",
         languageId: 9,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/male_gaze_iqkg1s.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },

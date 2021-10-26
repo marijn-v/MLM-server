@@ -79,15 +79,17 @@ module.exports = {
         expression: "Vai tomar no cu!",
         translation: "Go put something in your ass",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245041/Vai_tomar_no_cu_vkw7zc.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        expression: "Te fuder",
+        expression: "Vai se fuder",
         translation: "Fuck you",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/vai_se_fuder_evkrju.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -95,7 +97,8 @@ module.exports = {
         expression: "Vai pro carolho",
         translation: "Go fuck yourself",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/Vai_pro_carolho_ooa0qj.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -103,7 +106,8 @@ module.exports = {
         expression: "Coloca o dedo no seu cu e roda",
         translation: "Put your finger in your ass and turn it",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/Coloca_o_dedo_no_seu_cu_e_roda_tvfp3a.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -215,38 +219,6 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
-      // {
-      //   expression: "Narrøv",
-      //   translation: "Idiot",
-      //   languageId: 9,
-      //   audio: "",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
-      // {
-      //   expression: "Røvhul",
-      //   translation: "Asshole",
-      //   languageId: 9,
-      //   audio: "",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
-      // {
-      //   expression: "Dumme svin",
-      //   translation: "Stupid pig",
-      //   languageId: 9,
-      //   audio: "",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
-      // {
-      //   expression: "Klamme Stodder",
-      //   translation: "Loser",
-      //   languageId: 9,
-      //   audio: "",
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      // },
       {
         expression: "Forro",
         translation: "Condom (like a dirty disposable thing)",
@@ -288,7 +260,8 @@ module.exports = {
       {
         expression:
           "Oh my god, a man has deemed me attractive! I AM TRULY BLESSED. WILL YOU MARRY ME SIR? I WAS NOTHING BEFORE YOU VALIDATED MY EXISTENCE TODAY!",
-        translation: "",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/oh_my_god_a_man_has_deemed_me_attractive_rer2ld.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
@@ -296,7 +269,8 @@ module.exports = {
       },
       {
         expression: "Damn, I love that tiny dick of yours!",
-        translation: "",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/love_your_tiny_dick_wyvujq.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
@@ -304,7 +278,8 @@ module.exports = {
       },
       {
         expression: "Sir, I do not know you, please do not talk to me.",
-        translation: "",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/i_do_not_know_you_hmcb9i.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
@@ -312,7 +287,8 @@ module.exports = {
       },
       {
         expression: "Sir, your MALE GAZE is unwanted here.",
-        translation: "",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/male_gaze_iqkg1s.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),

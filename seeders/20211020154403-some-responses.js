@@ -79,15 +79,17 @@ module.exports = {
         expression: "Vai tomar no cu!",
         translation: "Go put something in your ass",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245041/Vai_tomar_no_cu_vkw7zc.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        expression: "Te fuder",
+        expression: "Vai se fuder",
         translation: "Fuck you",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/vai_se_fuder_evkrju.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -95,7 +97,8 @@ module.exports = {
         expression: "Vai pro carolho",
         translation: "Go fuck yourself",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/Vai_pro_carolho_ooa0qj.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -103,7 +106,8 @@ module.exports = {
         expression: "Coloca o dedo no seu cu e roda",
         translation: "Put your finger in your ass and turn it",
         languageId: 5,
-        audio: "",
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245040/Coloca_o_dedo_no_seu_cu_e_roda_tvfp3a.mp3",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -216,32 +220,75 @@ module.exports = {
         updatedAt: new Date(),
       },
       {
-        expression: "Narrøv",
-        translation: "Idiot",
+        expression: "Forro",
+        translation: "Condom (like a dirty disposable thing)",
+        languageId: 3,
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635240397/forro_szqw0r.mp3",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression:
+          "Basura inservible, ojalá se te pudra la pija, reverendo infeliz",
+        translation:
+          "Useless piece of thrash, I hope your dick rots off, you unhappy loser",
+        languageId: 3,
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635240397/Basura_inservible_ojal%C3%A1_se_te_pudra_la_pija_reverendo_infeliz_snlv6r.mp3",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Kurwa mać spierdalaj głupia świnio",
+        translation: "Fuck, fuck you stupid pig",
+        languageId: 4,
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635240397/Kurwa_ma%C4%87_spierdalaj_g%C5%82upia_%C5%9Bwinio_mzldok.mp3",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Pierdol się",
+        translation: "Fuck off",
+        languageId: 4,
+        audio:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635240396/Pierdol_si%C4%99_q2ud7k.mp3",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression:
+          "Oh my god, a man has deemed me attractive! I AM TRULY BLESSED. WILL YOU MARRY ME SIR? I WAS NOTHING BEFORE YOU VALIDATED MY EXISTENCE TODAY!",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/oh_my_god_a_man_has_deemed_me_attractive_rer2ld.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        expression: "Røvhul",
-        translation: "Asshole",
+        expression: "Damn, I love that tiny dick of yours!",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/love_your_tiny_dick_wyvujq.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        expression: "Dumme svin",
-        translation: "Stupid pig",
+        expression: "Sir, I do not know you, please do not talk to me.",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/i_do_not_know_you_hmcb9i.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        expression: "Klamme Stodder",
-        translation: "Loser",
+        expression: "Sir, your MALE GAZE is unwanted here.",
+        translation:
+          "https://res.cloudinary.com/dpc6rgqzd/video/upload/v1635245615/male_gaze_iqkg1s.mp3",
         languageId: 9,
         audio: "",
         createdAt: new Date(),

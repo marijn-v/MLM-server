@@ -66,6 +66,55 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        expression: "Turn around and let me see your face, bitch!",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Young lady. Nice legs. Good god!",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Oh my god, look at this prize here!",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Are you gonna take care of me?",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Smile lady, you'll look prettier!",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "I know what I would do with you, baby!",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression:
+          "God bless, when I see you, all I get is wild thoughts, wild, wild thoughts.",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        expression: "Ey sexy girl, where are you going alone?",
+        status: "pending",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
     /**
      * Add seed commands here.

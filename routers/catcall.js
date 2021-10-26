@@ -33,6 +33,7 @@ router.patch("/:id", auth, async (req, res, next) => {
   try {
     const id = parseInt(req.params.id);
     const catcallToUpdate = await Catcall.findByPk(id);
+    console.log(id, catcallToUpdate);
     if (!catcallToUpdate) {
       return res.status(400).send("Sorry can't find catcall");
     }

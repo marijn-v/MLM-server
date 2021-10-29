@@ -26,6 +26,7 @@
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.2",
     "pg": "^8.7.1",
+    "safer-buffer": "^2.1.2",
     "sequelize": "^6.7.0",
     "sequelize-cli": "^6.2.0"
   },
